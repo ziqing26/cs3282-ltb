@@ -9438,6 +9438,10 @@
 										this:</span></span></p>
 						</div>
 					</div>
+					<aside class="notes">
+						Using what we have learnt in CS3282 about making a good presentation, what do you think is wrong
+						with this slide? [pause]
+					</aside>
 				</section>
 				<section data-auto-animate-duration="0.4" data-background-color="rgb(255, 255, 255)"
 					data-auto-animate="">
@@ -9456,9 +9460,6 @@
 						</div>
 					</div>
 					<aside class="notes">
-						Using what we have learnt in CS3282 about making a good presentation, what do you think is wrong
-						with this slide? [pause] <br /><br />
-
 						This slide just makes me so frustrated. I don't know which lines of code are important.
 						I also cannot copy the code into ChatGPT because, you know what, this chunk of code is a
 						screenshot (probably from
@@ -9822,7 +9823,7 @@
 						</div>
 					</div>
 					<aside class="notes">
-						Or sometimes, speakers type out the code in monospace font on google slides or they copy past
+						Or sometimes, speakers type out the code in monospace font on google slides or they copy paste
 						from their IDE.
 					</aside>
 				</section>
@@ -10259,15 +10260,15 @@
 						<div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none"
 							style="z-index: 12;">
 							<pre style="font-size: 16px; line-height: 19px; tab-size: 4;" class="xml"><code data-line-numbers="">&lt;section data-markdown&gt;
-	  &lt;textarea data-template&gt;
-	    ## Slide 1
-	    A paragraph with some text and a [link](https://hakim.se).
-	    ---
-	    ## Slide 2
-	    ---
-	    ## Slide 3
-	  &lt;/textarea&gt;
-	&lt;/section&gt;</code></pre>
+	&lt;textarea data-template&gt;
+	## Slide 1
+	A paragraph with some text and a [link](https://hakim.se).
+	---
+	## Slide 2
+	---
+	## Slide 3
+	&lt;/textarea&gt;
+&lt;/section&gt;</code></pre>
 						</div>
 					</div>
 					<div class="sl-block" data-block-type="image"
@@ -10368,7 +10369,7 @@
 					<div class="sl-block" data-block-type="text"
 						style="width: 860px; left: 82px; top: 214px; height: auto;" data-name="text-bdd9cb">
 						<div class="sl-block-content" style="z-index: 10;">
-							<h2>What are the benefits of using Reveal.js?</h2>
+							<h2>What are the <span style="color: #2F90F8">benefits</span> of using Reveal.js?</h2>
 						</div>
 					</div>
 				</section>
@@ -10389,18 +10390,18 @@ REALLY REALLY nicely and easily.</code></pre>
 							style="z-index: 10;">
 							<pre class="none" style="font-size: 16px; line-height: 19px; tab-size: 4;"><code data-line-numbers="">import React, { useState } from 'react';
 	
-	function Example() {
-	  const [count, setCount] = useState(0);
-	
-	  return (
-	    &lt;div&gt;
-	      &lt;p&gt;You clicked {count} times&lt;/p&gt;
-	      &lt;button onClick={() =&gt; setCount(count + 1)}&gt;
-	        Click me
-	      &lt;/button&gt;
-	    &lt;/div&gt;
-	    );
-	}
+function Example() {
+	const [count, setCount] = useState(0);
+
+	return (
+		&lt;div&gt;
+			&lt;p&gt;You clicked {count} times&lt;/p&gt;
+			&lt;button onClick={() =&gt; setCount(count + 1)}&gt;
+				Click me
+			&lt;/button&gt;
+		&lt;/div&gt;
+	);
+}
 	</code></pre>
 						</div>
 					</div>
@@ -10411,8 +10412,7 @@ REALLY REALLY nicely and easily.</code></pre>
 						</div>
 					</div>
 					<aside class="notes">You can copy paste code easily. This is very helpful when you want to invite
-						audience to try out the code. They can
-						just copy paste the code into their own editor and experiment around.
+						audience to try out the code on their own.
 					</aside>
 				</section>
 				<section>
@@ -10428,31 +10428,31 @@ REALLY REALLY nicely and easily.</code></pre>
 							style="z-index: 10;">
 							<pre class="none" style="font-size: 16px; line-height: 19px; tab-size: 4;"><code data-line-numbers="">import React, { useState } from 'react';
 	
-	function Example() {
-	  const [count, setCount] = useState(0);
+function Example() {
+	const [count, setCount] = useState(0);
+
+	return (
+		&lt;div&gt;
+			&lt;p&gt;You clicked {count} times&lt;/p&gt;
+			&lt;button onClick={() =&gt; setCount(count + 1)}&gt;
+				Click me
+			&lt;/button&gt;
+		&lt;/div&gt;
+	);
+}
 	
-	  return (
-	    &lt;div&gt;
-	      &lt;p&gt;You clicked {count} times&lt;/p&gt;
-	      &lt;button onClick={() =&gt; setCount(count + 1)}&gt;
-	        Click me
-	      &lt;/button&gt;
-	    &lt;/div&gt;
-	    );
-	}
-	
-	function SecondExample() {
-	  const [count, setCount] = useState(0);
-	
-	  return (
-	    &lt;div&gt;
-	      &lt;p&gt;You clicked {count} times&lt;/p&gt;
-	      &lt;button onClick={() =&gt; setCount(count + 1)}&gt;
-	        Click me
-	      &lt;/button&gt;
-	    &lt;/div&gt;
-	    );
-	}</code></pre>
+function SecondExample() {
+	const [count, setCount] = useState(0);
+
+	return (
+		&lt;div&gt;
+			&lt;p&gt;You clicked {count} times&lt;/p&gt;
+			&lt;button onClick={() =&gt; setCount(count + 1)}&gt;
+				Click me
+			&lt;/button&gt;
+		&lt;/div&gt;
+	);
+}</code></pre>
 						</div>
 					</div>
 					<div class="sl-block" data-block-type="text"
@@ -10478,28 +10478,28 @@ REALLY REALLY nicely and easily.</code></pre>
 						<div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none"
 							style="z-index: 10;">
 							<pre class="none" style="font-size: 16px; line-height: 19px; tab-size: 4;"><code data-line-numbers="1|9|17|23">int flag = 0;
-	int a = 0;
-	int b = 0;
-	
-	void test1()
-	{
-	  a = 1;
-	  b = 1;
-	  flag = 1;
-	}
-	
-	void test2()
-	{
-	  std::cout &lt;&lt; "init a: " &lt;&lt; a &lt;&lt; std::endl;
-	  std::cout &lt;&lt; "init b: " &lt;&lt; b &lt;&lt; std::endl;
-	
-	  while(flag == 0) {}
-	
-	  std::cout &lt;&lt; "final a: " &lt;&lt; a &lt;&lt; std::endl;
-	  std::cout &lt;&lt; "final b: " &lt;&lt; b &lt;&lt; std::endl;
-	}
-	
-	// Highlighting the relevant lines only</code></pre>
+int a = 0;
+int b = 0;
+
+void test1()
+{
+	a = 1;
+	b = 1;
+	flag = 1;
+}
+
+void test2()
+{
+	std::cout &lt;&lt; "init a: " &lt;&lt; a &lt;&lt; std::endl;
+	std::cout &lt;&lt; "init b: " &lt;&lt; b &lt;&lt; std::endl;
+
+	while(flag == 0) {}
+
+	std::cout &lt;&lt; "final a: " &lt;&lt; a &lt;&lt; std::endl;
+	std::cout &lt;&lt; "final b: " &lt;&lt; b &lt;&lt; std::endl;
+}
+
+// Highlighting the relevant lines only</code></pre>
 						</div>
 					</div>
 					<div class="sl-block" data-block-type="text"
@@ -10616,8 +10616,7 @@ REALLY REALLY nicely and easily.</code></pre>
 						collaboration with non tech people, it is not very suitable to use reveal js. Although markdown
 						is a fairly simple
 						language to use, it still has barrier to entry. Not to mention other tools such as html, css and
-						git. For non tech
-						people, less tech heavy tools such as google slides might be enough for business presentation.
+						git. Google slides might be sutiable for that situation.
 						So in other words,
 						revealjs does not target them as the user. Instead. their target user are programming experts
 						like you.
